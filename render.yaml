@@ -11,7 +11,7 @@ services:
     startCommand: "gunicorn portfolio.wsgi:application"
     envVars:
       - key: DATABASE_URL
-        fromDatabase:
+        fromDatabase: postgres://portfolio_sql_user:LbhKOmolNmPNxYKzfsNbC6tq5mBnrnmj@dpg-cj30m8t9aq0e0q5641eg-a.oregon-postgres.render.com/portfolio_sql
         name: conc-settings
         property: connectionString
       - key: SECRET_KEY
