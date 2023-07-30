@@ -1,0 +1,23 @@
+body{
+    background: #111322;
+}
+
+.bg-black{
+    background: #595562;
+}
+
+.card-app:hover{
+    transform: scale(1.00);
+    border:1px solid #e1d9d9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    
+}
+/* .card {
+    transition: transform 0.1s ease, box-shadow 0.8s ease;
+  }
+   */
+/* .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  } */
