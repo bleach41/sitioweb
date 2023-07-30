@@ -1,7 +1,7 @@
 databases: 
   - name: portfolio_sql
     databaseName: portfolio_sql
-    user: Tony
+    user: portfolio_sql_user
 
 services:
   - type: web
