@@ -1,11 +1,11 @@
 databases: portfolio_sql
-  - name: 
+  - name: portffolio_db
     databaseName: portfolio_sql
     user: Tony
 
 services:
   - type: web
-    name: mysite
+    name: alumicarpin
     runtime: python
     buildCommand: "./build.sh"
     startCommand: "gunicorn portfolio.wsgi:application"
