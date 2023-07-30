@@ -1,5 +1,5 @@
-databases: portfolio_sql
-  - name: alumicarpin
+databases: 
+  - name: portfolio_sql
     databaseName: portfolio_sql
     user: Tony
 
